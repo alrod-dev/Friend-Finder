@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7ecb4fd-f9dc-4fe5-b1c7-4f3b2d274c9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/home.html" afterPath="$PROJECT_DIR$/app/public/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/survey.html" afterPath="$PROJECT_DIR$/app/public/survey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-    </list>
+    <list default="true" id="b7ecb4fd-f9dc-4fe5-b1c7-4f3b2d274c9e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,7 +42,7 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/public/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
+            <state relative-caret-position="624">
               <caret line="39" column="111" lean-forward="false" selection-start-line="39" selection-start-column="111" selection-end-line="39" selection-end-column="111" />
               <folding />
             </state>
@@ -58,8 +52,8 @@
       <file leaf-file-name="survey.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/public/survey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="804">
-              <caret line="288" column="10" lean-forward="true" selection-start-line="288" selection-start-column="10" selection-end-line="288" selection-end-column="10" />
+            <state relative-caret-position="714">
+              <caret line="277" column="18" lean-forward="true" selection-start-line="277" selection-start-column="18" selection-end-line="277" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#select#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -132,8 +126,8 @@
         <option value="$PROJECT_DIR$/app/routing/apiRoutes.js" />
         <option value="$PROJECT_DIR$/app/routing/htmlRoutes.js" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/app/public/home.html" />
         <option value="$PROJECT_DIR$/app/public/survey.html" />
+        <option value="$PROJECT_DIR$/app/public/home.html" />
       </list>
     </option>
   </component>
@@ -354,12 +348,12 @@
       <updated>1505331304281</updated>
       <workItem from="1505331305705" duration="3830000" />
       <workItem from="1505432064368" duration="357000" />
-      <workItem from="1505499166526" duration="6412000" />
+      <workItem from="1505499166526" duration="6511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10599000" />
+    <option name="totallyTimeSpent" value="10698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -593,7 +587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/public/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
+        <state relative-caret-position="624">
           <caret line="39" column="111" lean-forward="false" selection-start-line="39" selection-start-column="111" selection-end-line="39" selection-end-column="111" />
           <folding />
         </state>
@@ -601,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/public/survey.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="288" column="10" lean-forward="true" selection-start-line="288" selection-start-column="10" selection-end-line="288" selection-end-column="10" />
+        <state relative-caret-position="714">
+          <caret line="277" column="18" lean-forward="true" selection-start-line="277" selection-start-column="18" selection-end-line="277" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#select#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
