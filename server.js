@@ -1,16 +1,21 @@
+// Author: Alfredo Rodriguez
+// File: JS - server.js
+// Date: 09/16/2017
+
 // Dependencies
 // =============================================================
 var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
-// var htmlSites = require('./getSites')(app);
-// var apiSites = require('app/routing/apiRoutes.js')(app);
+
 
 // Sets up the Express App
 // =============================================================
 
 var PORT = 3000;
 var app = express();
+
+
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
@@ -48,34 +53,20 @@ var friendList = [{
 
 // Routes
 // =============================================================
-app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "app/public/home.html"));
-});
-
-//Creating a friendList route
-app.get("/survey", function (req, res) {
-    res.sendFile(path.join(__dirname, "app/public/survey.html"));
-});
-
-app.get("/api/friends", function (req, res) {
-    res.json(friendList);
-});
-
-app.get("/api/friends", function (req, res) {
-    res.json(friendList);
-});
+require('./app/routing/htmlRoutes')(app);
+require('./app/routing/apiRoutes')(app, friendList);
 
 // Create New Characters - takes in JSON input
 app.post("/api/friends", function (req, res) {
 
 
-    var newReservations = req.body;
+    var newFriends = req.body;
 
-    console.log(newReservations);
+    console.log(newFriends);
 
-    friendList.push(newReservations);
+    friendList.push(newFriends);
 
-    res.json(newReservations);
+    res.json(newFriends);
 
 
 });
